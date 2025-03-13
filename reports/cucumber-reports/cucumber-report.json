@@ -10,6 +10,30 @@
         "name": "Get specific user",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21135200
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361199
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3048399
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
@@ -19,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40786499
+              "duration": 15411900
             }
           },
           {
@@ -32,7 +56,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 665354199
+              "duration": 952667700
             }
           },
           {
@@ -45,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5045700
+              "duration": 6587799
             }
           },
           {
@@ -58,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1368500
+              "duration": 2831799
             }
           },
           {
@@ -71,7 +95,23 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83934099
+              "duration": 21814999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11095499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4217399
             }
           }
         ],
@@ -86,6 +126,30 @@
         "name": "Get all users",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22713300
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 356100
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2612399
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 11,
@@ -95,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40355600
+              "duration": 17821500
             }
           },
           {
@@ -108,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 674406299
+              "duration": 779090800
             }
           },
           {
@@ -121,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9259799
+              "duration": 10191400
             }
           },
           {
@@ -134,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2765300
+              "duration": 2540100
             }
           },
           {
@@ -147,7 +211,23 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92122699
+              "duration": 39385299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 825799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4109599
             }
           }
         ],
@@ -162,6 +242,30 @@
         "name": "Dispose the response after getting the response of Users",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1699700
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76699
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 458100
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 18,
@@ -171,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 204471900
+              "duration": 227766599
             }
           },
           {
@@ -184,7 +288,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7374800
+              "duration": 7998599
             }
           },
           {
@@ -197,7 +301,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1101999
+              "duration": 1700299
             }
           },
           {
@@ -210,7 +314,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 803700
+              "duration": 864299
             }
           },
           {
@@ -223,7 +327,23 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5508299
+              "duration": 9717900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 422699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2470400
             }
           }
         ],
@@ -238,6 +358,30 @@
         "name": "Dispose the response after getting the response of Specific Users",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2058499
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133299
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 594999
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 25,
@@ -247,7 +391,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 285607000
+              "duration": 507820000
             }
           },
           {
@@ -260,7 +404,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17137800
+              "duration": 6782699
             }
           },
           {
@@ -273,7 +417,23 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16254300
+              "duration": 8708400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 334600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1963999
             }
           }
         ],

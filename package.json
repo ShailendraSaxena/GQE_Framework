@@ -3,24 +3,28 @@
   "version": "1.0.0",
   "description": "GQE-Playwright Framework with Typescript",
   "main": "index.js",
+  "allure": {
+    "resultsDir": "reports/allure-reports",
+    "reportDir": "reports/allure-reports/allure-report"
+  },
   "scripts": {
-    "test": "npx cucumber-js",
+    "test": "cucumber-js -- require-module ts-node/register --require src/test/api/steps/**/*.ts",
     "test:getUsers": "npx cucumber-js C:\\Users\\MAJSHANM\\git\\GQE_Framework\\src\\test\\api\\features\\getUsers.feature",
-    "test:createUserOperations": "cucumber-js C:/Users/MAJSHANM/git/GQE_Framework/src/test/api/features/createUserOperations.feature",    
+    "test:createUserOperations": "cucumber-js C:/Users/MAJSHANM/git/GQE_Framework/src/test/api/features/createUserOperations.feature",
     "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
     "test:serial": "npx playwright test --grep @Smoke --workers=1 --project=Chrome",
     "test:ui": "npx playwright test --grep @Smoke --ui",
     "test:api": "npx playwright test --grep @API --workers=1 --project=Chrome",
     "test:db": "npx playwright test DB.test.ts --project=DB",
     "test:record": "npx playwright codegen",
-    "allure:generate": "allure generate reports/allure-results --clean",
-    "allure:open": "allure open reports/allure-report",
-    "allure:serve": "allure serve reports/allure-results",
+    "allure:generate": "allure generate --clean C:\\Users\\MAJSHANM\\git\\GQE_Framework\\reports\\allure-reports -o C:\\Users\\MAJSHANM\\git\\GQE_Framework\\reports\\allure-reports\\allure-report",
+    "allure:open": "allure open C:\\Users\\MAJSHANM\\git\\GQE_Framework\\reports\\allure-reports\\allure-report",
+    "allure:serve": "allure serve C:\\Users\\MAJSHANM\\git\\GQE_Framework\\reports\\allure-reports\\allure-report",
     "allureReport": "allure serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akshayp7/playwright-typescipt-playwright-test.git"
+    "url": "https://github.com/mssurya/GQE_Framework"
   },
   "author": "MSSurya",
   "license": "MIT",
@@ -38,13 +42,15 @@
     "pdfjs-dist-es5": "^2.13.216",
     "pg": "^8.13.0",
     "typescript": "^5.6.2",
-    "winston": "^3.14.2"
+    "winston": "^3.14.2",
+    "semver": "^7.5.2"
   },
   "devDependencies": {
-    "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/cucumber": "^8.11.1",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.1",
     "allure-commandline": "^2.32.2",
+    "allure-cucumberjs": "^2.15.1",
     "allure-playwright": "^3.2.0",
     "ts-node": "^10.9.2"
   }
