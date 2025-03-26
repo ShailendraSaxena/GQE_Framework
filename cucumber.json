@@ -9,8 +9,8 @@
       "format": [
         "progress-bar",
         "html:reports/cucumber-reports/cucumber-report.html",
-        "json:reports/cucumber-reports/cucumber-report.json",
-        "node_modules/allure-cucumberjs"
+        "json:reports/cucumber-reports/cucumber-report.json"
+        
       ],
       "parallel": 2
     }
